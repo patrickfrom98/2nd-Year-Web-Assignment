@@ -1,0 +1,52 @@
+body {
+	background-color: #aec1cf;
+}
+
+span { 
+	display:block;
+	width:900px;
+	word-wrap:break-word;
+	margin:auto;
+}
+
+strong {
+	color: #333;
+}
+
+hr {
+	width: 100%;
+	border: 0.5px solid #004770;
+	padding: 0;
+	margin: 0;
+}
+
+h4 {
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+.book-image {
+	max-width: 400px;
+	height: auto;
+	margin: auto;
+	padding: 40px 0px;
+	display: block;
+}
+
+.book-heading {
+	color:#333;
+	font-family: 'Julius Sans One', sans-serif;
+	font-weight:bold;
+	padding-top:40px;
+	padding-bottom: 20px;
+	display: block;
+}
+
+.book-subheading {
+	color:#5D6D7E;
+	font-family: 'Julius Sans One', sans-serif;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	display: block;
+}

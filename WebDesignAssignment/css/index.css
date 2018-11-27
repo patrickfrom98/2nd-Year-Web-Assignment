@@ -1,0 +1,13 @@
+.book-link {
+	text-decoration: none;
+	font-family: 'Julius Sans One', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: #57B7E4;
+}
+
+.book-link:hover {
+	color: #004770;
+}
