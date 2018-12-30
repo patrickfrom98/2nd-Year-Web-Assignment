@@ -18,7 +18,7 @@
 		
 		<?php
 		try {
-			$pdo = new PDO("mysql:host=localhost; dbname=u1756102", "u1756102", "08nov98");
+			$pdo = new PDO("mysql:host=localhost; dbname=", "", "");
 			$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	
 			$resultset = $pdo->query("SELECT * FROM Book");
