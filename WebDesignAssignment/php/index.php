@@ -23,7 +23,7 @@
 						if (isset($_POST['title'])) {
 							try {
 								//Connects to database & sets up debugging mode
-								$pdo = new PDO("mysql:host=localhost; dbname=u1756102", "u1756102", "08nov98");
+								$pdo = new PDO("mysql:host=localhost; dbname=", "", "");
 								$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 						
 								//Prepares correct query - based on selected filters
